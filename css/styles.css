@@ -1,0 +1,12 @@
+.clickable {
+  cursor: pointer;
+  color: #FF4C4C;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+#gallons-hidden, #Tsp-hidden {
+  display: none;
+}

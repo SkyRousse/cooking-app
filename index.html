@@ -2,9 +2,32 @@
 <html>
   <head>
     <title>Cooking App</title>
+    <link rel="stylesheet" href="css/styles.css" charset="utf-8">
   </head>
   <body>
     <h1>Cooking App</h1>
+    <div class="show-menu">
+      <p>Click on the conversion that you want to compute</p>
+      <ul>
+        <li id="gallons-show">Gallons to Liters</li>
+        <li id="Tsp-show">Tsp to fl oz</li>
+        <!--<li class="open">Cup to fl oz</li>
+        <li class="open">1/8 cup to Tbsp</li> -->
+      </ul>
+    </div>
+    <div id="gallons-hidden">
+      <h3>Gallons to Liters</h3>
+      <label>Enter the number galllons</label>
+      <input placeholder="enter number of gallons"></input>
+      <button class="show-button">Back to conversion list</button>
+    </div>
+    <div id="Tsp-hidden">
+      <h3>Tespoons to fluid ounces</h3>
+      <label>Enter the number Tsp</label>
+      <input placeholder="enter number of Tsp"></input>
+      <button class="show-button">Back to conversion list</button>
+    </div>
+    <script src="js/jquery-1.12.4.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
