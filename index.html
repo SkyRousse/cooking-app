@@ -2,32 +2,45 @@
 <html>
   <head>
     <title>Cooking App</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css" charset="utf-8">
+    <script src="js/jquery-1.12.4.js"></script>
+    <scrip src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h1>Cooking App</h1>
-    <div class="show-menu">
-      <p>Click on the conversion that you want to compute</p>
-      <ul>
-        <li id="gallons-show">Gallons to Liters</li>
-        <li id="Tsp-show">Tsp to fl oz</li>
-        <!--<li class="open">Cup to fl oz</li>
-        <li class="open">1/8 cup to Tbsp</li> -->
-      </ul>
-    </div>
-    <div id="gallons-hidden">
-      <h3>Gallons to Liters</h3>
-      <label>Enter the number galllons</label>
-      <input placeholder="enter number of gallons"></input>
-      <button class="show-button">Back to conversion list</button>
-    </div>
-    <div id="Tsp-hidden">
+    <div class="container">
+      <h1>Cooking App</h1>
+      <div class="show-menu">
+        <p>Click on the conversion that you want to compute</p>
+        <ul>
+          <li id="gallons-show">Gallons to Liters</li>
+          <li id="Tsp-show">Tsp to fl oz</li>
+          <!--<li class="open">Cup to fl oz</li>
+          <li class="open">1/8 cup to Tbsp</li> -->
+        </ul>
+      </div>
+      <div id="gallons">
+        <h3>Gallons to Liters</h3>
+        <form id="gallons-liters">
+          <div class="form-group">
+            <label for="gallons">Enter the number galllons</label>
+            <input  id="gallons" class="form-control" type="number" placeholder="enter number of gallons"></input>
+            <button type="submit">Calculate</button>
+          </div>
+        </form>
+      </div>
       <h3>Tespoons to fluid ounces</h3>
-      <label>Enter the number Tsp</label>
-      <input placeholder="enter number of Tsp"></input>
-      <button class="show-button">Back to conversion list</button>
+      <form id="tsp-floz">
+        <div class="form-group">
+          <label for="tsp">Enter the number Tsp</label>
+          <input id="tsp" class="form-control" type="number" placeholder="enter number of Tsp"></input>
+          <button type="submit">Calculate</button>
+        </div>
+      </form>
+      <div id="results">
+        <h3>your results are: </h3>
+      </div>
     </div>
-    <script src="js/jquery-1.12.4.js"></script>
-    <script src="js/scripts.js"></script>
   </body>
 </html>
