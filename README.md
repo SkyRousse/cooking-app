@@ -1,32 +1,29 @@
-# _Cooking App (js)_
+# Cooking App
 
-#### _A JavaScript Cooking Calculator, May 31, 2016_
-
-#### By _**Marty Fitchen, Sky Rousse**_
+#### By _**Sky Rousse, George Olsen**_
 
 ## Description
 
-_This is a calculator developed using JavaScript in order to practice our js skills by converting units of measure for cooking._
+__Page to test taking inputs from a form and outputting them into a reciept__
 
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
-* _Open HTML file in a browser (preferred: Google Chrome)_
-* _Do calculations_
-
-## Support and contact details
-
-_Let Marty or Sky know if you run into any issues or have questions, ideas, or concerns. Email <a href="mailto:mfitchen@gmail.com">Marty</a> or <a href="mailto:skyrousse@gmail.com">Sky</a>._
+* _Open HTML file in a browser_
+* _Fill in form fields_
 
 ## Technologies Used
 
-_JavaScript was used to create the calculator._
+* JS
+* HTML
+* CSS
+* jQuery
 
 ### License
 
 *MIT License*
 
-Copyright (c) 2016 **_Marty Fitchen, Sky Rousee, Epicodus_**
+Copyright (c) 2016 **Sky Rousee_**
 
 _Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -45,3 +42,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE._
+
