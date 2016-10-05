@@ -4,7 +4,7 @@
 
 ## Description
 
-__Page to test taking inputs from a form and outputting them into a reciept__
+__Practice js calculations of units of measure as well as seperation of business logic and user interface logic__
 
 ## Setup/Installation Requirements
 
